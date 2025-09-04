@@ -14,10 +14,9 @@
 - 从 [navicat premium](https://www.navicat.com.cn/download/navicat-premium) 官网下载最新版。安装并运行，选择试用14天。
 - 待试用到期后，在终端进入脚本所在文件夹，运行重置脚本。执行命令：`sh reset_navicat.sh` 或者 双击执行reset_navicat.command。
 - 使用双击执行reset_navicat.command注意事项: 1.reset_navicat.command与reset_navicat.sh需在同一目录下。2.初次使用需要授权安全性。3.如弹出无权限请进入终端，移动到当前文件夹，输入`sudo chmod -R 777 reset_navicat.command`回车(需要输入本机密码)。然后则重新双击执行reset_navicat.command
-- 执行脚本前需要关闭navicat
-- 执行脚本后打开navicat查看是否重置成功
-- 如无变化则先关闭navicat，然后重启电脑，然后重新执行脚本，在打开navicat查看是否重制
-- 如上方法均无效的情况下,卸载现有版本，然后点击 [navicat premium](https://www.navicat.com.cn/download/navicat-premium) 下载最新版本，然后关机重启，执行脚本
+- 执行脚本前需要关闭navicat,重启电脑
+- 然后开机后直接执行脚本，在打开navicat查看是否重置试用期
+- 如上方法无效的情况下,卸载现有版本，然后点击 [navicat premium](https://www.navicat.com.cn/download/navicat-premium) 下载最新版本，然后关机重启，执行脚本
 - reset_navicat_0710为特殊版本，该版本支持保留settings的设置，使用方式同上
 - 本脚本默认16以上均可以使用，不在测试版本中不一定不能使用。
 - 经测试可用版本如下:
@@ -57,6 +56,10 @@
 - 17.2.7
 - 17.2.8
 - 17.2.9
+- 17.3.0
+- 17.3.1
+- 17.3.2
+- 17.3.3
 
 
 ## 许可证
